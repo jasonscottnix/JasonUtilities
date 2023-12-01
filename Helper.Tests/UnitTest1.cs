@@ -36,6 +36,7 @@ namespace Helper.Tests
         [Theory]
         [InlineData("jsn",123)]
         [InlineData("test",456)]
+        [InlineData("boo",333)]
         public void HelperMethod1_2TestSets_ReturnProperString(string value, int expected)
         {
             var result = JasonUtilities.Helper.HelperMethod1(value, expected);
