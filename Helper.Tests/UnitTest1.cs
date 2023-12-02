@@ -45,5 +45,12 @@ namespace Helper.Tests
 
             Assert.Equal(shouldBe, result);
         }
+
+        [Fact]
+        public void CountFilesInBlobFolder()
+        {
+            var result = JasonUtilities.Helper.countFilesInBlobFolder("test");
+            Assert.Equal(1, result);
+        }
     }
 }

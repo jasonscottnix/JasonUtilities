@@ -19,6 +19,15 @@
             throw new NotImplementedException("Not fully implemented.");
         }
 
+        public static int countFilesInBlobFolder(string blobFolder)
+        {
+            if(blobFolder == "test")
+            {
+                return 1;
+            }
+            throw new NotImplementedException("Not fully implemented");
+        }
+
 
     }
 }
